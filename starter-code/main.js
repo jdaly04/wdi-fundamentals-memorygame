@@ -8,7 +8,7 @@ var cards = ('queen', 'king', 'queen', 'king');
 //} else {
   //alert ('Sorry, try again!')
 //}
-var board = document.getElementById('board-game');
+var board = document.getElementById('game-board');
 
 function createCard() {
   for (var i=0; i<cards.length; i++) {
