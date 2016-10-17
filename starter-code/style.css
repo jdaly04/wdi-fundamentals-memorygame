@@ -10,20 +10,23 @@
 	border: 1px solid black;
 	background-color: yellow;
 	border-radius: 10px;
+	float: left;
+	margin: 8%;
 }
-
-.card, .board {
-    display: inline-block;
-    float: left;
-    margin: 8%;
+.board {
+  height: 80%;
+  width: 50%;
+  display: inline-block;
 }
 
 h1 {
 	color: rgb(2,132,130);
+	text-align: center;
 }
 
 h2 {
 	color: gold;
+	text-align: center;
 }
 
 .name {
@@ -63,3 +66,8 @@ a:hover {
         height: 0;
         font-size: 0;
  }
+
+ img {
+	height: 200px;
+  width: 150px;
+}
